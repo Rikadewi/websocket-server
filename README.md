@@ -12,7 +12,7 @@
   $ python3 server.py
 ```
 
-### Pembagian tugas
+### Pembagian Tugas
   | NIM      | Nama                  | Apa yang dikerjakan | Kontribusi |
   |----------|-----------------------|---------------------|------------|
   | 13517006 | Lukas Kurnia Jonathan |                     |            |
