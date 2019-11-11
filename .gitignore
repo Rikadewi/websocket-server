@@ -1,3 +1,8 @@
 /client/node_modules
 temp.pys
 __pycache__/webSocketHandler.cpython-37.pyc
+.vscode/
+websocket_server/__pycache__/
+a.zip
+submit.zip
+temp.py
