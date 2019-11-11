@@ -1,1 +1,22 @@
-data = 'GET /?encoding=text HTTP/1.1\r\nHost: 152dd537.ngrok.io\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36\r\nUpgrade: websocket\r\nOrigin: http://websocket.org\r\nSec-WebSocket-Version: 13\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7\r\nSec-WebSocket-Key: SisLSyLGkYcPdD3QR2fk6A==\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\nX-Forwarded-For: 2403:8000:704:5:c52d:52f3:5da3:30b4\r\n\r\n'
+# temp = bytearray()
+# firstbyte = 128 + 0x1
+# firstbyte += 300
+# # temp.append(128)
+# temp.append(firstbyte)
+# print(temp)
+
+import webSocketHandler
+
+coba = 'ini cuman data pendek'
+
+temp = webSocketHandler.createFrame(128, 0x1, 21, coba.encode('utf-8'))
+print(coba.encode('utf-8'))
+print(temp)
+fin, opcode, mask, payload_len, masking_key, payload_data = webSocketHandler.parseFrame(
+    temp)
+
+print(fin)
+print(opcode)
+print(mask)
+print(payload_len)
+print(payload_data.decode('utf-8'))

@@ -8,8 +8,7 @@
 
 ### Petunjuk Penggunaan Program
 ```
-  $ npm intall ws
-  $ python3 server.py
+$ PORT={NOMOR_PORT} python3 server.py
 ```
 
 ### Pembagian Tugas
