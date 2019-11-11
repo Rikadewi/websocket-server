@@ -1,4 +1,10 @@
 //Tugas Besar II Jarkom
-const PORT = 9000;
+const WebSocket = require('ws')
 
-var wsClient = new WebSocket(`ws://localhost:${PORT}/`);
+// const PORT = 600;
+
+var ws = new WebSocket(`ws://localhost:${process.env.PORT}/`);
+
+ws.on('open', function open() {
+    ws.send("Hello")
+})

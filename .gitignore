@@ -1,1 +1,3 @@
 /client/node_modules
+temp.pys
+__pycache__/webSocketHandler.cpython-37.pyc
