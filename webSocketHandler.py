@@ -39,26 +39,32 @@ def createFrame(fin, opcode, payload_len, payload_data):
     frame = bytearray()
     first_byte = fin + opcode
     frame.append(first_byte)
-
-    if (payload_len >= 2**16):
-        second_byte = 127
+    
+    if (payload_len < 0):
+        print("Invalid lenght")
+        second_byte = 0
         frame.append(second_byte)
-
-        temp = payload_len.to_bytes(8, byteorder='big')
-        for i in range(8):
-            frame.append(temp[i])
-
-    elif (payload_len > 125):
-        second_byte = 126
-        frame.append(second_byte)
-
-        temp = payload_len.to_bytes(8, byteorder='big')
-        for i in range(2):
-            frame.append(temp[i])
-
-    else:
+    elif (payload_len <= 125):
         second_byte = payload_len
         frame.append(second_byte)
+    elif (payload_len < 2**16):
+        second_byte = 126
+        frame.append(second_byte)
+        print(payload_len)
+        frame.append(payload_len >> 8)
+        frame.append(payload_len & 0xff)
+    else:
+        second_byte = 127
+        frame.append(second_byte)
+        frame.append(payload_len >> 56)
+        frame.append((payload_len >> 48)& 0xff)
+        frame.append((payload_len >> 40)& 0xff)
+        frame.append((payload_len >> 32)& 0xff)
+        frame.append((payload_len >> 24)& 0xff)
+        frame.append((payload_len >> 16)& 0xff)
+        frame.append((payload_len >> 8)& 0xff)
+        frame.append(payload_len & 0xff)
+
 
     frame += payload_data
 
@@ -149,18 +155,39 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                         if (payload_data.decode('utf-8')[0:6] == '!echo '):
                             phrase = payload_data[6:]
                             print(phrase)
-                        #     response = createFrame(fin, OPCODE_TEXT_FRAME,
-                        #                            payload_len - 6, phrase)
-                        #     self.request.sendall(response)
+                            response = createFrame(fin, OPCODE_TEXT_FRAME,
+                                                   payload_len - 6, phrase)
+                            self.request.sendall(response)
                         elif (payload_data.decode('utf-8')[0:11] ==
                               '!submission'):
                             print('wakgeng')
                             with open('submit.zip', 'rb') as zipfile:
                                 filebin = zipfile.read()
+
                                 response = createFrame(FIN,
                                                        OPCODE_BINARY_FRAME,
                                                        len(filebin), filebin)
+                                print("create")
+                                print(FIN)
+                                print(OPCODE_BINARY_FRAME)
+                                print(len(filebin))
+
+                                fin, opcode, mask, payload_len, masking_key, payload_data = parseFrame(
+                                    response)
+                                print('parse')
+                                print(fin)
+                                print(opcode)
+                                print(mask)
+                                print(payload_len)
                                 self.request.sendall(response)
+                                # filebin.close()
+                            # f = open('submit.zip', "rb")
+                            # f_bin = f.read()
+                            # f.close()
+                            # w = open('a.zip', 'wb')
+                            # w.write(f_bin)
+                            # w.close()
+
                     break
 
             else:

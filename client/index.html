@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Client for Realtime API</title>
+</head>
+
+<body>
+    <h1>Try to send a message</h1>
+    <p>Message Received:</p>
+    <div id="message"></div>
+    <script>
+        let message = document.getElementById("message")
+
+        let socket = new WebSocket("ws://127.0.0.1:6002");
+        console.log("Attempting Connection...");
+
+        socket.onopen = () => {
+            console.log("Successfully Connected");
+            socket.send("!submission");
+        };
+
+        socket.onmessage = event => {
+            console.log("wakgeng")
+            // message.textContent = event.data.toString()
+        };
+
+        socket.onclose = event => {
+            console.log("Socket Closed Connection: ", event);
+            socket.send("Client Closed!")
+        };
+
+        socket.onerror = error => {
+            console.log("Socket Error: ", error);
+        };
+
+    </script>
+</body>
+
+</html>
