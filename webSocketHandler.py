@@ -163,9 +163,10 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                     # if opcode == OPCODE_TEXT_FRAME:
                     #     print('payload data received: ', payload_data.decode('utf-8'))
                     # break
-                    # if mask == 0:
-                    #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION, 2, b'1007')
-                    #     self.request.sendall(response)
+                    if mask == 0:
+                        response = createFrame(FIN, OPCODE_CLOSE_CONNECTION, 2, b'1007')
+                        self.request.sendall(response)
+                        break
                     # if opcode == OPCODE_CLOSE_CONNECTION:
                     #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION,
                     #                                payload_len - 6, 'Good Bye')
