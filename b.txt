@@ -1,0 +1,2114 @@
+data diterima baru bgt  bytearray(b'\x81\x8e\xbd\xa0pA\x9c\xc5\x13)\xd2\x80\x08\x16\xce\xe1%$\xc8\xd4')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xbd\xa0pA\x9c\xc5\x13)\xd2\x80\x08\x16\xce\xe1%$\xc8\xd4')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'xWsAUeut')
+data diterima baru bgt  bytearray(b"\x88\x822}\'$1\x95")
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b"\x88\x822}\'$1\x95")
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8ex\xb2\x9d%Y\xd7\xfeM\x17\x92\xccK6\xd5\xcao \xdc')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8ex\xb2\x9d%Y\xd7\xfeM\x17\x92\xccK6\xd5\xcao \xdc')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'QnNgWJXn')
+data diterima baru bgt  bytearray(b'\x88\x82\x86\xedP<\x85\x05')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x86\xedP<\x85\x05')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xe1$\x06\r\xc0Aee\x8e\x04JU\xb6FR^\xb1f')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xe1$\x06\r\xc0Aee\x8e\x04JU\xb6FR^\xb1f')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'LXWbTSPB')
+data diterima baru bgt  bytearray(b'\x88\x82\xa8\x17\xa4\x81\xab\xff')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xa8\x17\xa4\x81\xab\xff')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e;\xe9\xb9\xff\x1a\x8c\xda\x97T\xc9\xd0\xbeh\xbf\xc0\x90x\xa7')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e;\xe9\xb9\xff\x1a\x8c\xda\x97T\xc9\xd0\xbeh\xbf\xc0\x90x\xa7')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'iASVyoCN')
+data diterima baru bgt  bytearray(b'\x88\x82\x03\x1f&\xa6\x00\xf7')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x03\x1f&\xa6\x00\xf7')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xd7\xfb\x9bJ\xf6\x9e\xf8"\xb8\xdb\xd2\x1a\xb2\x82\xea)\x93\xba')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xd7\xfb\x9bJ\xf6\x9e\xf8"\xb8\xdb\xd2\x1a\xb2\x82\xea)\x93\xba')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'IPeyqcDA')
+data diterima baru bgt  bytearray(b'\x88\x82\xba\t\x1eR\xb9\xe1')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xba\t\x1eR\xb9\xe1')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e`\xb8\xad\rA\xdd\xcee\x0f\x98\xfb}7\xcc\xdbk\x19\xca')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e`\xb8\xad\rA\xdd\xcee\x0f\x98\xfb}7\xcc\xdbk\x19\xca')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'VpWtvfyr')
+data diterima baru bgt  bytearray(b'\x88\x82K\xc0\xc9\xa7H(')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82K\xc0\xc9\xa7H(')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8ej\xe1s3K\x84\x10[\x05\xc1\x04f;\x85*I9\xb1')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8ej\xe1s3K\x84\x10[\x05\xc1\x04f;\x85*I9\xb1')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'wUQdYzSP')
+data diterima baru bgt  bytearray(b'\x88\x82%J\x1e\xf8&\xa2')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82%J\x1e\xf8&\xa2')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e2\xff\xc5\x8a\x13\x9a\xa6\xe2]\xdf\x9f\xfet\xac\xa6\xdb[\x90')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e2\xff\xc5\x8a\x13\x9a\xa6\xe2]\xdf\x9f\xfet\xac\xa6\xdb[\x90')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'ZtFScQio')
+data diterima baru bgt  bytearray(b'\x88\x82nm\xeb\x0bm\x85')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82nm\xeb\x0bm\x85')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xf7\xc90\xd1\xd6\xacS\xb9\x98\xe9`\x89\x91\x8cD\xbf\xbb\xbb')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xf7\xc90\xd1\xd6\xacS\xb9\x98\xe9`\x89\x91\x8cD\xbf\xbb\xbb')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'PXfEtnLr')
+data diterima baru bgt  bytearray(b'\x88\x82\r2\xa3.\x0e\xda')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\r2\xa3.\x0e\xda')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xfb^\xafN\xda;\xcc&\x94~\xf7\t\xaa6\xca\x07\xae<')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xfb^\xafN\xda;\xcc&\x94~\xf7\t\xaa6\xca\x07\xae<')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'XGQheIUb')
+data diterima baru bgt  bytearray(b'\x88\x82\x846\x18e\x87\xde')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x846\x18e\x87\xde')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8eM\x0e9\xc3lkZ\xab".}\xa4+`S\x97,w')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8eM\x0e9\xc3lkZ\xab".}\xa4+`S\x97,w')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'DgfnjTay')
+data diterima baru bgt  bytearray(b'\x88\x82\x8a\x9c\xc0\x82\x89t')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x8a\x9c\xc0\x82\x89t')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e5\xb3\xfd\xd9\x14\xd6\x9e\xb1Z\x93\xbf\x8ay\xf9\xac\xbbB\xea')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e5\xb3\xfd\xd9\x14\xd6\x9e\xb1Z\x93\xbf\x8ay\xf9\xac\xbbB\xea')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'BSLJQbwY')
+data diterima baru bgt  bytearray(b'\x88\x82\xb1\x0c\xad2\xb2\xe4')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xb1\x0c\xad2\xb2\xe4')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8ekf\xee\xb6J\x03\x8d\xde\x04F\xaf\xef>\x11\x9f\xde1\x0e')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8ekf\xee\xb6J\x03\x8d\xde\x04F\xaf\xef>\x11\x9f\xde1\x0e')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'AYUwqhZh')
+data diterima baru bgt  bytearray(b'\x88\x820\n\xf2\x893\xe2')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x820\n\xf2\x893\xe2')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x87\xfb\x1d\x82\xa6\x9e~\xea\xe8\xdbG\xf3\xea\xa2~\xc1\xf0\x83')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x87\xfb\x1d\x82\xa6\x9e~\xea\xe8\xdbG\xf3\xea\xa2~\xc1\xf0\x83')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'ZqmYcCwx')
+data diterima baru bgt  bytearray(b'\x88\x82j\xdd\xeb\xbci5')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82j\xdd\xeb\xbci5')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xd02i\xee\xf1W\n\x86\xbf\x12+\xbb\x82x0\x8b\x99d')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xd02i\xee\xf1W\n\x86\xbf\x12+\xbb\x82x0\x8b\x99d')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'BURJYeIV')
+data diterima baru bgt  bytearray(b'\x88\x82sf\xea\xc6p\x8e')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82sf\xea\xc6p\x8e')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x00\xac\x85\x86!\xc9\xe6\xeeo\x8c\xd7\xf1K\xef\xdc\xe9A\xd6')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x00\xac\x85\x86!\xc9\xe6\xeeo\x8c\xd7\xf1K\xef\xdc\xe9A\xd6')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'RwKCYoAz')
+data diterima baru bgt  bytearray(b'\x88\x82\xab9\x13\x8e\xa8\xd1')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xab9\x13\x8e\xa8\xd1')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xd5-?\x03\xf4H\\k\xba\rLA\x97NXt\x9bN')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xd5-?\x03\xf4H\\k\xba\rLA\x97NXt\x9bN')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'sBBcgwNc')
+data diterima baru bgt  bytearray(b'\x88\x82\xc9e\r\x87\xca\x8d')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xc9e\r\x87\xca\x8d')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x1a\xa2\x94\x8d;\xc7\xf7\xe5u\x82\xd6\xc5x\xc3\xdd\xc9t\xf6')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x1a\xa2\x94\x8d;\xc7\xf7\xe5u\x82\xd6\xc5x\xc3\xdd\xc9t\xf6')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'BHbaIDnT')
+data diterima baru bgt  bytearray(b'\x88\x82\xfe\x01\x01\x1b\xfd\xe9')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xfe\x01\x01\x1b\xfd\xe9')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8eFZZ\xc9g?9\xa1)z\x1d\x98\x0f-\x17\xa1\x053')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8eFZZ\xc9g?9\xa1)z\x1d\x98\x0f-\x17\xa1\x053')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'GQIwMhCi')
+data diterima baru bgt  bytearray(b'\x88\x82`\xd3U\x1ac;')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82`\xd3U\x1ac;')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x98nLz\xb9\x0b/\x12\xf7N\x023\xdb4\x1b=\xf76')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x98nLz\xb9\x0b/\x12\xf7N\x023\xdb4\x1b=\xf76')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'NICZWGoX')
+data diterima baru bgt  bytearray(b'\x88\x82?\xddb\xf3<5')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82?\xddb\xf3<5')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x07U\xfbw&0\x98\x1fhu\x89\x1bf6\xb8\x12p-')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x07U\xfbw&0\x98\x1fhu\x89\x1bf6\xb8\x12p-')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'rlacCewx')
+data diterima baru bgt  bytearray(b'\x88\x82\xb9>\x8e\xf3\xba\xd6')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xb9>\x8e\xf3\xba\xd6')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8ec\x02\x84aBg\xe7\t\x0c"\xf107k\xe28\x07A')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8ec\x02\x84aBg\xe7\t\x0c"\xf107k\xe28\x07A')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'uQTifYdC')
+data diterima baru bgt  bytearray(b'\x88\x82A\xa0\x95\xbdBH')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82A\xa0\x95\xbdBH')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x821m=\xa3T\x0eU\xed\x11.i\xc6E\x0ft\xd3B')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x821m=\xa3T\x0eU\xed\x11.i\xc6E\x0ft\xd3B')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'CTDtbIQs')
+data diterima baru bgt  bytearray(b'\x88\x82\x01Oz\x90\x02\xa7')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x01Oz\x90\x02\xa7')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b"\x81\x8eJ:r\'k_\x11O%\x1a\x17w\x1dh\x01J&y")
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b"\x81\x8eJ:r\'k_\x11O%\x1a\x17w\x1dh\x01J&y")
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'ePWRsmlC')
+data diterima baru bgt  bytearray(b'\x88\x82\x9eV\xd7\xc8\x9d\xbe')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x9eV\xd7\xc8\x9d\xbe')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xc1SJ1\xe06)Y\xaes\x12D\x8c!\x05T\xb72')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xc1SJ1\xe06)Y\xaes\x12D\x8c!\x05T\xb72')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'XuMrOeva')
+data diterima baru bgt  bytearray(b'\x88\x82\x10\xadI6\x13E')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x10\xadI6\x13E')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x1f\xe2\x0bA>\x87h)p\xc2L\x13L\xb3i\x1bt\xb7')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x1f\xe2\x0bA>\x87h)p\xc2L\x13L\xb3i\x1bt\xb7')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'GRSQbZkU')
+data diterima baru bgt  bytearray(b'\x88\x82\x10\xbb\x91C\x13S')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\x10\xbb\x91C\x13S')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\x176\x03\xa86S`\xc0x\x16[\xc3S@o\xf9un')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\x176\x03\xa86S`\xc0x\x16[\xc3S@o\xf9un')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'XkDvlQbX')
+data diterima baru bgt  bytearray(b'\x88\x82M\xee\x8a\xcdN\x06')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82M\xee\x8a\xcdN\x06')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b"\x81\x8es%D\x1dR@\'u\x1c\x05\x13h\x14T T:k")
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b"\x81\x8es%D\x1dR@\'u\x1c\x05\x13h\x14T T:k")
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'WugqdIIN')
+data diterima baru bgt  bytearray(b"\x88\x82\xa2\xcf\xd3\x02\xa1\'")
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b"\x88\x82\xa2\xcf\xd3\x02\xa1\'")
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8e\xcc\xaaO\xc3\xed\xcf,\xab\xa3\x8a+\xae\xb4\xd0!\xb7\x99\xd0')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8e\xcc\xaaO\xc3\xed\xcf,\xab\xa3\x8a+\xae\xb4\xd0!\xb7\x99\xd0')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'dmxzntUz')
+data diterima baru bgt  bytearray(b'\x88\x82O\xdd\xa8\x9bL5')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82O\xdd\xa8\x9bL5')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8eMfBFl\x03!."F2\x13\x06\';)\x19.')
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data skg 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+len data hrsnya 20
+msk count
+len_data  20
+msk len data besar 2
+hayo mana exception 1
+data panjang:  20
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8eMfBFl\x03!."F2\x13\x06\';)\x19.')
+payload len in parse frame: 14
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  14
+phrase received:  bytearray(b'pUKAyoTH')
+data diterima baru bgt  bytearray(b'\x88\x82\xd0\xd8\xec\x88\xd30')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xd0\xd8\xec\x88\xd30')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x81\x8b,=\x05\xe3\rNp\x81ATv\x90ERk')
+msk count
+len_data  17
+msk len data besar 2
+hayo mana exception 1
+data panjang:  17
+header: 6
+msk
+len data skg 17
+msk count
+len_data  17
+msk len data besar 2
+hayo mana exception 1
+data panjang:  17
+header: 6
+msk
+len data hrsnya 17
+msk count
+len_data  17
+msk len data besar 2
+hayo mana exception 1
+data panjang:  17
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x81\x8b,=\x05\xe3\rNp\x81ATv\x90ERk')
+payload len in parse frame: 11
+fin received:  128
+opcode received: text
+mask received:  128
+length received:  11
+submission received
+data diterima baru bgt  bytearray(b'\x88\x82\xc3\tC\xba\xc0\xe1')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xc3\tC\xba\xc0\xe1')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x82\xfe\x01\xd4z\x9f)\xc7*\xd4*\xc3n\x9f!\xc7r\x9f\nu\x11\xd0)\xc7z\x9f)\xc7z\x9fO\xc5z\x9f \xc7Z\x9f{\x82;\xdbd\x82T\xf2M\x92.\x92)\xc0\x08\xe4\xe0\x9a\t\xe4\xe0\x9a\x08\xe4\xe0\x9a\x0f\xe7"\xc7{\x9b\xc1\xc4z\x9f-/y\x9f)\xb2\xeb\xdeb\x04:\x8f\xac(\x81\xb47\x83\x8a\xcbDn\xcc\xbfQ\xd7\xc7\xf7E\xd4\xa0\xdd\xa6\xb1\xd8\xd4\x93\x1a\x1e\xa8\xc5\xa1\xef\xff\xd5(\x14\xfd\x9cA\xdcp\xdd\xbf\xc9l\xc4\xf7i\xff\x005X|q4\xbeu~\x0e1\xb3\x90\xbe\x9d\x19\x18\xd1~\x9ekY\x93#\xf9\xd5M\xc7\xa2\xeb\t\r\xc5~\xbfu\x17\xa1y\x13\xef\x10\xd9vY\xf5\xbb\xba\xb7\\x\xddNSZ\xa3@\x82\x9f\t}03Lw\xa635\xfd\x91\x85\to\x90)\xc0s\xcf3\xe7\xc9\xd8\x98x\xe6_\xed\xd1\xc4[\x8e\xd9\x8cn)\xdb#v\xab6\x88[\x17\xa92\xb1\xfc\xa7sk\x14\xa0\xce\x16V\xc5\x95\xf3\x84\x94l\x92\x14*3\x04\xcc\\v\xd3/d[H\xb1\x8ccB\xfd3u\x8d\xec\x9e\x1c!\xf5\xac\x9d5\xec\xed\xebV\x10C<C\xf0\xcb\xa3\xf0[&\xf0V\x8e\x1f3f,:8N\xc9\x9d\\\x84`c\xc0X\x977\x16(\xde\xb2@x\xd1~\xed\x1c\xa4\xea\xd3{5\x02\xddO\xaeFS\xb8\xb5\x96;\xc9\xd2yc2\x9b\xd5\x8e\\4\x92\xdc\xca*\xd4.\xcfG\xf6\xf0\x87o\x9e)\xc7\x1c\x9d)\xc7*\xd4(\xc5n\x9c=\xc7r\x9f!\xc7Y-B\x88G\xf6\xf0\x87o\x9e)\xc7\x1c\x9d)\xc7s\x9f\t\xc7z\x9f)\xc7z\x9f)\xc7\xde\x1e)\xc7z\x9f{\x82;\xdbd\x82T\xf2M\x92.\x92)\xc0\x08\xe4\xe0\x9a\t\xe4\xe0\x9a\x08\xe4\xe0\x9a\x0f\xe7"\xc7{\x9b\xc1\xc4z\x9f-/y\x9f)\x971\x9a/\xc7z\x9f)\xc6z\x9e)\x90z\x9f)\xab')
+msk count
+len_data  476
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  476
+header: 8
+msk
+len data skg 476
+msk count
+len_data  476
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  476
+header: 8
+msk
+len data hrsnya 476
+msk count
+len_data  476
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  476
+header: 8
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x82\xfe\x01\xd4z\x9f)\xc7*\xd4*\xc3n\x9f!\xc7r\x9f\nu\x11\xd0)\xc7z\x9f)\xc7z\x9fO\xc5z\x9f \xc7Z\x9f{\x82;\xdbd\x82T\xf2M\x92.\x92)\xc0\x08\xe4\xe0\x9a\t\xe4\xe0\x9a\x08\xe4\xe0\x9a\x0f\xe7"\xc7{\x9b\xc1\xc4z\x9f-/y\x9f)\xb2\xeb\xdeb\x04:\x8f\xac(\x81\xb47\x83\x8a\xcbDn\xcc\xbfQ\xd7\xc7\xf7E\xd4\xa0\xdd\xa6\xb1\xd8\xd4\x93\x1a\x1e\xa8\xc5\xa1\xef\xff\xd5(\x14\xfd\x9cA\xdcp\xdd\xbf\xc9l\xc4\xf7i\xff\x005X|q4\xbeu~\x0e1\xb3\x90\xbe\x9d\x19\x18\xd1~\x9ekY\x93#\xf9\xd5M\xc7\xa2\xeb\t\r\xc5~\xbfu\x17\xa1y\x13\xef\x10\xd9vY\xf5\xbb\xba\xb7\\x\xddNSZ\xa3@\x82\x9f\t}03Lw\xa635\xfd\x91\x85\to\x90)\xc0s\xcf3\xe7\xc9\xd8\x98x\xe6_\xed\xd1\xc4[\x8e\xd9\x8cn)\xdb#v\xab6\x88[\x17\xa92\xb1\xfc\xa7sk\x14\xa0\xce\x16V\xc5\x95\xf3\x84\x94l\x92\x14*3\x04\xcc\\v\xd3/d[H\xb1\x8ccB\xfd3u\x8d\xec\x9e\x1c!\xf5\xac\x9d5\xec\xed\xebV\x10C<C\xf0\xcb\xa3\xf0[&\xf0V\x8e\x1f3f,:8N\xc9\x9d\\\x84`c\xc0X\x977\x16(\xde\xb2@x\xd1~\xed\x1c\xa4\xea\xd3{5\x02\xddO\xaeFS\xb8\xb5\x96;\xc9\xd2yc2\x9b\xd5\x8e\\4\x92\xdc\xca*\xd4.\xcfG\xf6\xf0\x87o\x9e)\xc7\x1c\x9d)\xc7*\xd4(\xc5n\x9c=\xc7r\x9f!\xc7Y-B\x88G\xf6\xf0\x87o\x9e)\xc7\x1c\x9d)\xc7s\x9f\t\xc7z\x9f)\xc7z\x9f)\xc7\xde\x1e)\xc7z\x9f{\x82;\xdbd\x82T\xf2M\x92.\x92)\xc0\x08\xe4\xe0\x9a\t\xe4\xe0\x9a\x08\xe4\xe0\x9a\x0f\xe7"\xc7{\x9b\xc1\xc4z\x9f-/y\x9f)\x971\x9a/\xc7z\x9f)\xc6z\x9e)\x90z\x9f)\xab')
+payload len in parse frame: 468
+fin received:  128
+opcode received binnary
+mask received:  128
+length received:  468
+data diterima baru bgt  bytearray(b'\x88\x82\xccJ\xe4\xbe\xcf\xa2')
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data skg 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+len data hrsnya 8
+msk count
+len_data  8
+msk len data besar 2
+hayo mana exception 1
+data panjang:  8
+header: 6
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x88\x82\xccJ\xe4\xbe\xcf\xa2')
+payload len in parse frame: 2
+fin received:  128
+opcode received close
+mask received:  128
+length received:  2
+payload received: bytearray(b'\x03\xe8')
+bytearray(b'\x88\x02\x03\xe8')
+data diterima baru bgt  bytearray(b'\x82\xfe\x01\xdb\xed)D+\xbdbG/\xf9)L+\xe5)g\x99\x86fD+\xed)D+\xed)")\xed)M+\xcd)\x16n\xacm\tn\xc3D ~\xb9$D,\x9fR\x8dv\x9eR\x8dv\x9fR\x8dv\x98QO+\xec-\xac(\xed)@\xc3\xee)D^|h\x0f\xe8\xad9\xc1\xc4\x16\x02Zo\x1d})\x82[\t<;PA(87k\xcb]Ob\xfe\xf6\x89\x1e\xa8MxI\xb8\xc4\x83K\xf1\xadK\xc6\xb0S^\xda\xa9\x1b\xfeIm\xd9\xcf\xca\x1c\xd8)\xc3\x13\xe2\xa6\x05\xfdR\n\xafu=\xe9(\x06\xb5\x04\x95\x949\xdaq\xcf\x07\x9e\xbb\xa8\x92(\xc3zM\xee\xa5\x82\xfcN\xc04\x19,\x0c\xda\xb0\xefk#\xbf\xcd\x15-n\x08\xbf\x10\xdc\xa4\xfa\x1aJ\xa4\x83\x90}\x12\xbf\x02|\xbev\x1e#\xa4Q\xa44\x0f\xce\x8b\xb3zg\xa9\xb7\x19o\xe1\x82\xbemN\x9a<\x80\xe5\xb7\x80\x1f_]k\x11\x1e\x87\x83\x16\xa3\xfa\xc1s\xf8\x1f\x13"\x01~\x83\x9c^\xe8[\xea\x1b?\xb8\xd26\xa4&:\x0e\xaej\x85\x18a{(q\xcdb\x1a\xf0\xd9{[\x86\xba\x87\xf5Q\xafg}\xce\x1c\xcc\x90\x9d\xba\x19\xa9^\x8a\xbb\x8cU\xa2^+1h\xf7\xd5\xad\xb4\x00\x81{\xc4I\x04-\x94F\xc8\x80\xf03\\\xbe\x97\xa2\xb4\xb0\xa39\xf0>T" V%E\xcf\x0e\xde\x0cc\xe3\xb0\xa3$\xb1&\xbdbC#\xd0@\x9dk\xf8(D+\x8b+D+\xbdbE)\xf9*P+\xe5)L+\xce\x9b/d\xd0@\x9dk\xf8(D+\x8b+D+\xe4)d+\xed)D+\xed)D+I\xa8D+\xed)\x16n\xacm\tn\xc3D ~\xb9$D,\x9fR\x8dv\x9eR\x8dv\x9fR\x8dv\x98QO+\xec-\xac(\xed)@\xc3\xee)D{\xa6,B+\xed)D*\xed(D|\xed)DG\xec)D+\xed\x19t')
+msk count
+len_data  483
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  483
+header: 8
+msk
+len data skg 483
+msk count
+len_data  483
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  483
+header: 8
+msk
+len data hrsnya 483
+msk count
+len_data  483
+msk len data besar 2
+hayo mana exception 1
+hayo mana exception 2
+data panjang:  483
+header: 8
+msk
+data abis concat bytearray(b'')
+ini processed data:  bytearray(b'\x82\xfe\x01\xdb\xed)D+\xbdbG/\xf9)L+\xe5)g\x99\x86fD+\xed)D+\xed)")\xed)M+\xcd)\x16n\xacm\tn\xc3D ~\xb9$D,\x9fR\x8dv\x9eR\x8dv\x9fR\x8dv\x98QO+\xec-\xac(\xed)@\xc3\xee)D^|h\x0f\xe8\xad9\xc1\xc4\x16\x02Zo\x1d})\x82[\t<;PA(87k\xcb]Ob\xfe\xf6\x89\x1e\xa8MxI\xb8\xc4\x83K\xf1\xadK\xc6\xb0S^\xda\xa9\x1b\xfeIm\xd9\xcf\xca\x1c\xd8)\xc3\x13\xe2\xa6\x05\xfdR\n\xafu=\xe9(\x06\xb5\x04\x95\x949\xdaq\xcf\x07\x9e\xbb\xa8\x92(\xc3zM\xee\xa5\x82\xfcN\xc04\x19,\x0c\xda\xb0\xefk#\xbf\xcd\x15-n\x08\xbf\x10\xdc\xa4\xfa\x1aJ\xa4\x83\x90}\x12\xbf\x02|\xbev\x1e#\xa4Q\xa44\x0f\xce\x8b\xb3zg\xa9\xb7\x19o\xe1\x82\xbemN\x9a<\x80\xe5\xb7\x80\x1f_]k\x11\x1e\x87\x83\x16\xa3\xfa\xc1s\xf8\x1f\x13"\x01~\x83\x9c^\xe8[\xea\x1b?\xb8\xd26\xa4&:\x0e\xaej\x85\x18a{(q\xcdb\x1a\xf0\xd9{[\x86\xba\x87\xf5Q\xafg}\xce\x1c\xcc\x90\x9d\xba\x19\xa9^\x8a\xbb\x8cU\xa2^+1h\xf7\xd5\xad\xb4\x00\x81{\xc4I\x04-\x94F\xc8\x80\xf03\\\xbe\x97\xa2\xb4\xb0\xa39\xf0>T" V%E\xcf\x0e\xde\x0cc\xe3\xb0\xa3$\xb1&\xbdbC#\xd0@\x9dk\xf8(D+\x8b+D+\xbdbE)\xf9*P+\xe5)L+\xce\x9b/d\xd0@\x9dk\xf8(D+\x8b+D+\xe4)d+\xed)D+\xed)D+I\xa8D+\xed)\x16n\xacm\tn\xc3D ~\xb9$D,\x9fR\x8dv\x9eR\x8dv\x9fR\x8dv\x98QO+\xec-\xac(\xed)@\xc3\xee)D{\xa6,B+\xed)D*\xed(D|\xed)DG\xec)D+\xed\x19t')
+payload len in parse frame: 475
+fin received:  128
+opcode received binnary
