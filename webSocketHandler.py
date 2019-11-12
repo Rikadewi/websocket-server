@@ -146,15 +146,25 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                     fin, opcode, mask, payload_len, masking_key, payload_data = parseFrame(
                         data)
                     print('fin received: ', fin)
-                    print('opcode received: ', opcode)
+                    if(opcode == OPCODE_TEXT_FRAME):
+                        print('opcode received: text')
+                    elif (opcode == OPCODE_BINARY_FRAME):
+                        print('opcode received binnary')
+                    elif (opcode == OPCODE_CLOSE_CONNECTION):
+                        print('opcode received close')
+                    elif (opcode == OPCODE_PING):
+                        print('opcode received ping')
+                    elif (opcode == OPCODE_CONTINUATION_FRAME):
+                        print('opcode received continuation')
+
                     print('mask received: ', mask)
                     print('length received: ', payload_len)
-                    if opcode == OPCODE_TEXT_FRAME:
-                        print('payload data received: ', payload_data.decode('utf-8'))
+                    # if opcode == OPCODE_TEXT_FRAME:
+                    #     print('payload data received: ', payload_data.decode('utf-8'))
                     # break
                     # if mask == 0:
-                    #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION, )
-
+                    #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION, 2, b'1007')
+                    #     self.request.sendall(response)
                     # if opcode == OPCODE_CLOSE_CONNECTION:
                     #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION,
                     #                                payload_len - 6, 'Good Bye')
@@ -167,7 +177,7 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                         if payload_len >= 6:
                             if (payload_data.decode('utf-8')[0:6] == '!echo '):
                                 phrase = payload_data[6:]
-                                # print('phrase received: ', phrase)
+                                print('phrase received: ', phrase)
                                 response = createFrame(fin, OPCODE_TEXT_FRAME,
                                                        payload_len - 6, phrase)
                                 self.request.sendall(response)
@@ -175,7 +185,7 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                         if payload_len >= 11:
                             if (payload_data.decode('utf-8')[0:11] ==
                                   '!submission'):
-                                # print('submission received')
+                                print('submission received')
                                 with open('submit.zip', 'rb') as zipfile:
                                     filebin = zipfile.read()
                                     checksum = hashlib.md5(filebin).hexdigest()
@@ -188,7 +198,7 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                     elif opcode == OPCODE_BINARY_FRAME:
                         # print('checksum ', checksum)
                         # print('md5 ', hashlib.md5(payload_data).hexdigest())
-                        if checksum == hashlib.md5(payload_data).hexdigest():
+                        if checksum.lower() == hashlib.md5(payload_data).hexdigest().lower():
                             response = createFrame(FIN, OPCODE_TEXT_FRAME, 1, b'1')
                         else:
                             response = createFrame(FIN, OPCODE_TEXT_FRAME, 1, b'0')
