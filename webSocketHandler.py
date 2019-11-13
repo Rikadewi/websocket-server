@@ -40,9 +40,9 @@ def createFrame(fin, opcode, payload_len, payload_data):
     frame = bytearray()
     first_byte = fin + opcode
     frame.append(first_byte)
-    
+
     if (payload_len < 0):
-        print("Invalid lenght")
+        # print("Invalid lenght")
         second_byte = 0
         frame.append(second_byte)
     elif (payload_len <= 125):
@@ -57,14 +57,13 @@ def createFrame(fin, opcode, payload_len, payload_data):
         second_byte = 127
         frame.append(second_byte)
         frame.append(payload_len >> 56)
-        frame.append((payload_len >> 48)& 0xff)
-        frame.append((payload_len >> 40)& 0xff)
-        frame.append((payload_len >> 32)& 0xff)
-        frame.append((payload_len >> 24)& 0xff)
-        frame.append((payload_len >> 16)& 0xff)
-        frame.append((payload_len >> 8)& 0xff)
+        frame.append((payload_len >> 48) & 0xff)
+        frame.append((payload_len >> 40) & 0xff)
+        frame.append((payload_len >> 32) & 0xff)
+        frame.append((payload_len >> 24) & 0xff)
+        frame.append((payload_len >> 16) & 0xff)
+        frame.append((payload_len >> 8) & 0xff)
         frame.append(payload_len & 0xff)
-
 
     frame += payload_data
 
@@ -88,16 +87,16 @@ def parseFrame(frame):
 
     if (payload_len == 126):
         idx = idx + 2
-        payload_len = int.from_bytes(frame[2:idx], byteorder ='big')
+        payload_len = int.from_bytes(frame[2:idx], byteorder='big')
     elif (payload_len == 127):
         idx = idx + 8
-        payload_len = int.from_bytes(frame[2:idx],byteorder ='big')
-    print('payload len in parse frame:', payload_len)
+        payload_len = int.from_bytes(frame[2:idx], byteorder='big')
+    # print('payload len in parse frame:', payload_len)
 
     if (mask):
         masking_key = frame[idx:idx + 4]
         payload_data = frame[idx + 4:]  #payload data masih dalam mask
-        payload_data = unmask(masking_key, payload_data)
+        # payload_data = unmask(masking_key, payload_data)
     else:
         masking_key = 0
         payload_data = frame[idx:]  #payload data masih dalam mask
@@ -130,7 +129,6 @@ class webSocketHandler(socketserver.BaseRequestHandler):
 
         temp = dict(item.split(": ") for item in sp[1:len(sp) - 2])
         temp = {k.lower(): v for k, v in temp.items()}
-        # print(temp['connection'], temp['upgrade'])
 
         if ('connection' in temp and 'upgrade' in temp
                 and 'sec-websocket-key' in temp):
@@ -138,82 +136,129 @@ class webSocketHandler(socketserver.BaseRequestHandler):
                     and temp['upgrade'].lower() == 'websocket'):
                 key = temp['sec-websocket-key']
                 handshakeResponse = make_handshake_response(key)
-                self.request.sendall(bytearray(handshakeResponse, encoding='utf-8'))
+                self.request.sendall(
+                    bytearray(handshakeResponse, encoding='utf-8'))
 
                 global checksum
+                global buffer
+                buffer = bytearray()
+
                 while (True):
                     data = self.request.recv(1024)
-                    # print(data)
-                    fin, opcode, mask, payload_len, masking_key, payload_data = parseFrame(
-                        data)
-                    print('fin received: ', fin)
-                    if(opcode == OPCODE_TEXT_FRAME):
-                        print('opcode received: text')
-                    elif (opcode == OPCODE_BINARY_FRAME):
-                        print('opcode received binnary')
-                    elif (opcode == OPCODE_CLOSE_CONNECTION):
-                        print('opcode received close')
-                    elif (opcode == OPCODE_PING):
-                        print('opcode received ping')
-                    elif (opcode == OPCODE_CONTINUATION_FRAME):
-                        print('opcode received continuation')
-
-                    print('mask received: ', mask)
-                    print('length received: ', payload_len)
-                    # if opcode == OPCODE_TEXT_FRAME:
-                    #     print('payload data received: ', payload_data.decode('utf-8'))
-                    # break
-                    if mask == 0:
-                        response = createFrame(FIN, OPCODE_CLOSE_CONNECTION, 2, b'1007')
-                        self.request.sendall(response)
-                        break
-                    # if opcode == OPCODE_CLOSE_CONNECTION:
-                    #     response = createFrame(FIN, OPCODE_CLOSE_CONNECTION,
-                    #                                payload_len - 6, 'Good Bye')
-                    #         self.request.sendall(response)
-                    if(opcode == OPCODE_PING):
-                        response = createFrame(fin, OPCODE_PONG, payload_len, payload_data)
-                        self.request.sendall(response)
-
-                    elif opcode == OPCODE_TEXT_FRAME: 
-                        if payload_len >= 6:
-                            if (payload_data.decode('utf-8')[0:6] == '!echo '):
-                                phrase = payload_data[6:]
-                                print('phrase received: ', phrase)
-                                response = createFrame(fin, OPCODE_TEXT_FRAME,
-                                                       payload_len - 6, phrase)
-                                self.request.sendall(response)
-                                
-                        if payload_len >= 11:
-                            if (payload_data.decode('utf-8')[0:11] ==
-                                  '!submission'):
-                                print('submission received')
-                                with open('submit.zip', 'rb') as zipfile:
-                                    filebin = zipfile.read()
-                                    checksum = hashlib.md5(filebin).hexdigest()
-                                    # print('checksum sent :', checksum)
-                                    response = createFrame(FIN,
-                                                           OPCODE_BINARY_FRAME,
-                                                           len(filebin), filebin)
-                                    self.request.sendall(response)
-
-                    elif opcode == OPCODE_BINARY_FRAME:
-                        # print('checksum ', checksum)
-                        # print('md5 ', hashlib.md5(payload_data).hexdigest())
-                        if checksum.lower() == hashlib.md5(payload_data).hexdigest().lower():
-                            response = createFrame(FIN, OPCODE_TEXT_FRAME, 1, b'1')
+                    if data == b'':
+                        return
+                    buffer += data
+                    #print('isi data: ', data)
+                    #print('isi buffer:', buffer)
+                    try:
+                        fin, opcode, mask, payload_len, masking_key, payload_data = parseFrame(
+                            buffer)
+                        # print('masuk try')
+                        # print('payload_len = ', payload_len)
+                        # print('panjang payload_data: ', len(payload_data))
+                        if (payload_len == len(payload_data)):
+                            frame = buffer
+                            buffer = bytearray()
+                            flag = True
+                        elif (payload_len > len(payload_data)):
+                            raise Exception
                         else:
-                            response = createFrame(FIN, OPCODE_TEXT_FRAME, 1, b'0')
-                        self.request.sendall(response)
+                            lastidx = len(payload_data) - payload_len
+                            payload_data = payload_data[0:lastidx]
+                            # frame = createFrame(fin, opcode, mask, payload_len,
+                            # masking_key, payload_data)
+                            buffer = payload_data[lastidx:]
+                            flag = True
+                            # frame = buffer[0:lastidx]
+                            # buffer = buffer[lastidx:]
 
-                    elif opcode ==OPCODE_CLOSE_CONNECTION:
-                        print('payload received:', payload_data[0:2])
-                        response = createFrame(fin, OPCODE_CLOSE_CONNECTION, 2, payload_data[0:2])
-                        print(response)
-                        self.request.sendall(response)
-                        break
+                    except:
+                        # print('MASUK EXCEPTIONNNNNNNN')
+                        frame = bytearray()
+                        flag = False
 
-                    # break
+                    if (flag):
+                        # fin, opcode, mask, payload_len, masking_key, payload_data = parseFrame(
+                        # frame)
+
+                        payload_data = unmask(masking_key, payload_data)
+                        print('fin received: ', fin)
+                        if (opcode == OPCODE_TEXT_FRAME):
+                            print('opcode received: text')
+                        elif (opcode == OPCODE_BINARY_FRAME):
+                            print('opcode received binnary')
+                        elif (opcode == OPCODE_CLOSE_CONNECTION):
+                            print('opcode received close')
+                        elif (opcode == OPCODE_PING):
+                            print('opcode received ping')
+                        elif (opcode == OPCODE_CONTINUATION_FRAME):
+                            print('opcode received continuation')
+                        # print('mask received: ', mask)
+                        print('length received: ', payload_len)
+                        # if opcode == OPCODE_TEXT_FRAME:
+                        #     print('payload data received: ', payload_data.decode('utf-8'))
+                        # break
+                        if mask == 0:
+                            response = createFrame(FIN,
+                                                   OPCODE_CLOSE_CONNECTION, 2,
+                                                   b'1007')
+                            self.request.sendall(response)
+                            break
+
+                        if (opcode == OPCODE_PING):
+                            response = createFrame(fin, OPCODE_PONG,
+                                                   payload_len, payload_data)
+                            self.request.sendall(response)
+
+                        elif opcode == OPCODE_TEXT_FRAME:
+                            if payload_len >= 6:
+                                try:
+                                    if (payload_data.decode('utf-8')[0:6] ==
+                                            '!echo '):
+                                        phrase = payload_data[6:]
+                                        print('ECHO RECEIVED: ')
+                                        response = createFrame(
+                                            fin, OPCODE_TEXT_FRAME,
+                                            payload_len - 6, phrase)
+                                        self.request.sendall(response)
+                                except:
+                                    return
+
+                            if payload_len >= 11:
+                                if (payload_data.decode('utf-8')[0:11] ==
+                                        '!submission'):
+                                    print('SUBMISSION RECEIVED')
+                                    with open('submit.zip', 'rb') as zipfile:
+                                        filebin = zipfile.read()
+                                        checksum = hashlib.md5(
+                                            filebin).hexdigest()
+                                        # print('checksum sent :', checksum)
+                                        response = createFrame(
+                                            FIN, OPCODE_BINARY_FRAME,
+                                            len(filebin), filebin)
+                                        self.request.sendall(response)
+
+                        elif opcode == OPCODE_BINARY_FRAME:
+                            # print('checksum ', checksum)
+                            # print('md5 ', hashlib.md5(payload_data).hexdigest())
+                            if checksum.lower() == hashlib.md5(
+                                    payload_data).hexdigest().lower():
+                                response = createFrame(FIN, OPCODE_TEXT_FRAME,
+                                                       1, b'1')
+                            else:
+                                response = createFrame(FIN, OPCODE_TEXT_FRAME,
+                                                       1, b'0')
+                            self.request.sendall(response)
+
+                        elif opcode == OPCODE_CLOSE_CONNECTION:
+                            # print('payload received:', payload_data[0:2])
+                            response = createFrame(fin,
+                                                   OPCODE_CLOSE_CONNECTION, 2,
+                                                   payload_data[0:2])
+                            print(response)
+                            self.request.sendall(response)
+                            break
+                        print('\n')
 
             else:
                 print('Error')
